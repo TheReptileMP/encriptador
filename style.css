@@ -1,0 +1,208 @@
+* {
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+body{
+    background: url(imagenes/background_hacker.jpg);
+}
+
+header{
+    display: flex;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 75, 173, 0.303);
+    background-color: rgba(238, 238, 238, 0.78);
+}
+
+.texto-titulo{
+    color: rgba(0, 0, 0, 0.68);
+    width: auto;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+main{
+    display: flex;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.encriptado{
+    margin-top: 4%;
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 10px;
+    width: 41%;
+    border: 2px solid rgba(0, 75, 173, 0.303);
+    background-color: rgba(238, 238, 238, 0.78);
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#input-text{
+    display: block;
+    width: 92%;
+    padding: 10px;
+    margin: 20px 0 0 0;
+    border: none;
+    background-color: rgba(0, 75, 173, 0.303);
+    outline: none;
+    font-weight: bold;
+    
+}
+
+#mensaje-error{
+    visibility: hidden;
+    text-align: center;
+    font-weight: normal;
+    color: red;
+    display: block;
+    margin: 10px 0 10px 0;
+}
+
+.botones{
+    display: inline-block;
+    width: 92%;
+}
+.btn-encriptar, .btn-desencriptar{
+    margin-top: auto;
+    padding: 8px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(0, 75, 173, 0.403);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.747);
+}
+
+.btn-encriptar{
+    margin-left: 22%;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover{
+    background-color: rgba(0, 75, 173, 0.703);
+    transition: 200ms;
+}
+
+.btn-encriptar:active{
+    border-color: rgba(0, 0, 0, 0.68);
+}
+
+.btn-desencriptar{
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.btn-desencriptar:hover{
+    background-color: rgba(0, 75, 173, 0.703);
+    transition: 200ms;
+}
+
+.btn-desencriptar:active{
+    border-color: rgba(0, 0, 0, 0.68);
+}
+.desencriptado{
+    width: 45%;
+    margin-top: 4%;
+    margin-left: 9%;
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 75, 173, 0.303);
+    background-color: rgba(238, 238, 238, 0.78);
+}
+
+.error-desencriptado h2{
+    font-weight: bold;
+}
+
+.error-desencriptado p{
+    line-height: 1.5em;
+}
+
+.caja-mensaje{
+    display: none;
+}
+
+#output-text{
+    resize: none;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgba(0, 75, 173, 0.303);
+    outline: none;
+    font-weight: bold;
+}
+
+.btn-copiar{
+    padding: 10px 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.78);
+    background-color: rgba(0, 75, 173, 0.403);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.747);
+    margin-top: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar:hover{
+    background-color: rgba(0, 75, 173, 0.703);
+    transition: 200ms;
+}
+
+.btn-copiar:active{
+    border-color: rgba(0, 0, 0, 0.68);
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 11.5%;
+    background-color: rgba(0, 75, 173, 0.403);
+    padding: 2%;
+}
+
+.texto-footer{
+    width: 28%;
+    display: inline-block;
+    display: inline;
+}
+
+.texto-footer p{
+    display: inline-block;
+    line-height: 1.2em;
+    padding: 0.3%;
+    color: white;
+    font-weight: bold;
+}
+
+#autor{
+    font-style: italic;
+}
+
+.logos-contacto{
+    display: inline-block;
+}
+
+a{
+    margin-left: 10px;
+}
