@@ -4,6 +4,8 @@
 
 body{
     background: url(imagenes/background_hacker.jpg);
+    background-size: 94%;
+    min-width: 100vh;
 }
 
 header{
@@ -73,8 +75,9 @@ label{
 }
 
 .botones{
+    text-align: center;
     display: inline-block;
-    width: 92%;
+    width: 97%;
 }
 .btn-encriptar, .btn-desencriptar{
     margin-top: auto;
@@ -88,7 +91,6 @@ label{
 }
 
 .btn-encriptar{
-    margin-left: 22%;
     cursor: pointer;
 }
 
@@ -102,7 +104,6 @@ label{
 }
 
 .btn-desencriptar{
-    margin-left: 10%;
     cursor: pointer;
 }
 
@@ -119,11 +120,16 @@ label{
     margin-top: 4%;
     margin-left: 9%;
     text-align: center;
-    display: inline-block;
+    align-items: center;
+    display: flex;
     padding: 20px 20px;
     border-radius: 10px;
     border: 2px solid rgba(0, 75, 173, 0.303);
     background-color: rgba(238, 238, 238, 0.78);
+}
+
+.error-desencriptado{
+    width: 100%;
 }
 
 .error-desencriptado h2{
@@ -136,6 +142,8 @@ label{
 
 .caja-mensaje{
     display: none;
+    align-items: center;
+    width: 100%;
 }
 
 #output-text{
@@ -158,7 +166,6 @@ label{
     background-color: rgba(0, 75, 173, 0.403);
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.747);
-    margin-top: 4%;
     cursor: pointer;
 }
 
@@ -173,12 +180,14 @@ label{
 
 footer{
     display: flex;
+    position: fixed;
+    bottom: 0;
     align-items: center;
+    width: 100%;
     text-align: center;
     justify-content: center;
-    margin-top: 11.5%;
-    background-color: rgba(0, 75, 173, 0.403);
-    padding: 2%;
+    background-color: rgba(0, 75, 173, 0.603);
+    padding: 1%;
 }
 
 .texto-footer{
@@ -188,9 +197,8 @@ footer{
 }
 
 .texto-footer p{
+    line-height: 1.5em;
     display: inline-block;
-    line-height: 1.2em;
-    padding: 0.3%;
     color: white;
     font-weight: bold;
 }
@@ -205,4 +213,9 @@ footer{
 
 a{
     margin-left: 10px;
+}
+
+@media screen and (max-width:657px){
+
+    
 }
